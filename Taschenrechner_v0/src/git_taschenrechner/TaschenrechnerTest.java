@@ -27,31 +27,30 @@ public class TaschenrechnerTest {
 		swValue = myScanner.next().charAt(0);
 
 		Scanner zähler = new Scanner(System.in);
-		int zahl1, zahl2;
+		Double zahl1, zahl2;
 		System.out.println("Geben sie eine Zahl ein");
-		zahl1 = zähler.nextInt();
+		zahl1 = zähler.nextDouble();
 		System.out.println("Geben Sie eine zweite Zahl ein");
-		zahl2 = zähler.nextInt();
+		zahl2 = zähler.nextDouble();
 		// Switch construct
 		switch (swValue) {
-		case '1': 
+		case '1':
 			System.out.println(zahl1 + zahl2);
 			break;
 		case '2':
 			System.out.println(zahl1 - zahl2);
 			break;
 		case '3':
-		System.out.println(zahl1 / zahl2);
-		break;
+			System.out.println(zahl1 / zahl2);
+			break;
 		case '4':
 			System.out.println(zahl1 * zahl2);
 			break;
 		case '5':
 			System.out.println("Warum?");
 			break;
-		  //  add your code here
-		  
-		  
+		// add your code here
+
 		default:
 			System.out.println("Invalid selection");
 			break; // This break is not really necessary

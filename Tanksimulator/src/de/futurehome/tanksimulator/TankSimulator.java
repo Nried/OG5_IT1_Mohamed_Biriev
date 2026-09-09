@@ -1,4 +1,4 @@
-package de.futurehome.tanksimulator;
+	package de.futurehome.tanksimulator;
 import java.awt.BorderLayout;
 import java.awt.Button;
 import java.awt.FlowLayout;

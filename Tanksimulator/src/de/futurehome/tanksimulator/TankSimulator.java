@@ -50,6 +50,8 @@ public class TankSimulator extends Frame {
 		this.btnVerbrauchen.addActionListener(myActionListener);
 		this.btnBeenden.addActionListener(myActionListener);
 		this.btnZurücksetzen.addActionListener(myActionListener);
+		
+		
 	}
 
 	public static void main(String argv[]) {

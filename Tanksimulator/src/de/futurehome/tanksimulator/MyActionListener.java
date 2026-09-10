@@ -18,19 +18,19 @@ public class MyActionListener implements ActionListener {
 			 double fuellstand = f.myTank.getFuellstand();
 			 fuellstand = fuellstand + 5;
 			 f.myTank.setFuellstand(fuellstand);
-		 f.lblFuellstand.setText(""+fuellstand);
+		 f.lblFuellstand.setText(""+fuellstand + "(" +fuellstand / 200 * 100 + "%" + ")" );
 		}
 		if (obj == f.btnVerbrauchen) {
 			double fuellstand1 = f.myTank.getFuellstand();
 			 fuellstand1 = fuellstand1 - 2;
 			 f.myTank.setFuellstand(fuellstand1);
-			 f.lblFuellstand.setText(""+fuellstand1);
+			 f.lblFuellstand.setText(""+fuellstand1 + "(" +fuellstand1 / 200 * 100 + "%" + ")" );
 			}
 		if (obj == f.btnZurücksetzen) {
 			double fuellstand2 = f.myTank.getFuellstand();
 			 fuellstand2 = 0;
 			 f.myTank.setFuellstand(fuellstand2);
-			 f.lblFuellstand.setText(""+fuellstand2);
+			 f.lblFuellstand.setText(""+fuellstand2 + "(" +fuellstand2 / 200 * 100 + "%" + ")" );
 		}
 
 	}

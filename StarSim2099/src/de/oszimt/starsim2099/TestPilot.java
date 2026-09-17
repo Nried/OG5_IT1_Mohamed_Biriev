@@ -8,7 +8,7 @@ public class TestPilot {
 		String grad = "Testpilot";
 		String name = "Max Musterpilot";
 		
-		Pilot meinPilot = new Pilot();
+		Pilot meinPilot = new Pilot(name, grad, posY, posY);
 		meinPilot.setGrad(grad);
 		meinPilot.setName(name);
 		meinPilot.setPosX(posX);

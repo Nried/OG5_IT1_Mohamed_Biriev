@@ -9,7 +9,7 @@ public class TestLadung {
 		int masse = 122;
 		String typ = "Test-Ladung (gepunktet)";
 		
-		Ladung meineLadung = new Ladung();
+		Ladung meineLadung = new Ladung(posY, posY, masse, typ);
 		meineLadung.setTyp(typ);
 		meineLadung.setMasse(masse);
 		meineLadung.setPosX(posX);

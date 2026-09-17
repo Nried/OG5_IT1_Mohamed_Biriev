@@ -1,3 +1,4 @@
+
 package de.oszimt.starsim2099;
 
 public class TestPlanet {
@@ -8,7 +9,7 @@ public class TestPlanet {
 		int anzahlHafen = 3;
 		String name = "Max Musterpilot";
 		
-		Planet meinPlanet = new Planet();
+		Planet meinPlanet = new Planet(anzahlHafen, posY, posY, name);
 		meinPlanet.setAnzahlHafen(anzahlHafen);
 		meinPlanet.setName(name);
 		meinPlanet.setPosX(posX);

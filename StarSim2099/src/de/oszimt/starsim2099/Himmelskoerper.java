@@ -19,5 +19,7 @@ public class Himmelskoerper extends BigBang {
 
 	public void setName(String name) {
 		this.name = name;
+		
+		// OOPistCool
 	}
 }

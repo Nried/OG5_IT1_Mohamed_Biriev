@@ -6,4 +6,4 @@ public class BigBang {
 	private double posY;
 	
 }
-}
+

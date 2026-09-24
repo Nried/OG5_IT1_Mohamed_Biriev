@@ -1,6 +1,6 @@
 package de.oszimt.starsim2099;
 
-public class TestPilot {
+public class TestPilot extends Himmelskoerper {
 
 	public static void main(String[] args) {
 		double posX = (double)(Math.random() * 160);

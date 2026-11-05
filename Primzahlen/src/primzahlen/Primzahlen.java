@@ -10,7 +10,9 @@ public class Primzahlen {
 	    Scanner sc = new Scanner(System.in);
 	    System.out.println("Zahl bitte!");
 	    long zahl = sc.nextLong();
-
+	    
+	    long anfang = System.currentTimeMillis();
+	    
 	    if (zahl > 1) {
 
 	        boolean primzahl = true;
@@ -28,7 +30,8 @@ public class Primzahlen {
 	        } else {
 	            System.out.println(zahl + " ist keine Primzahl");
 	        }
-
+	        long ende = System.currentTimeMillis();
+	       System.out.println(ende - anfang + " ms");
 	    } 
 	}
 }

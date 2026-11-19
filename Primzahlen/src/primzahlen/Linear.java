@@ -2,7 +2,7 @@ package primzahlen;
 
 import java.util.Scanner;
 
-public class Primzahlen {
+public class Linear {
 
 	
 	public static void main(String[] args) {
